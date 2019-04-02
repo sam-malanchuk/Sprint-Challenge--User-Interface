@@ -144,3 +144,115 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Custom Styles : index.html */
+
+header {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+header nav {
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+img.jumbo-img {
+    padding: 20px 0;
+}
+
+.middle-content .boxes div.box.tealColor {
+    background-color: teal;
+}
+
+.middle-content .boxes div.box.goldColor {
+    background-color: gold;
+}
+
+.middle-content .boxes div.box.cadetblueColor {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes div.box.coralColor {
+    background-color: coral;
+}
+
+.middle-content .boxes div.box.crimsonColor {
+    background-color: crimson;
+}
+
+.middle-content .boxes div.box.forestgreenColor {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes div.box.darkorchidColor {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes div.box.hotpinkColor {
+    background-color: hotpink;
+}
+
+.middle-content .boxes div.box.indigoColor {
+    background-color: indigo;
+}
+
+.middle-content .boxes div.box.dodgerblueColor {
+    background-color: dodgerblue;
+}
+
+/* Custom Styles : about.html */
+
+.top-content-main {
+    padding: 0 15px 15px 15px;
+}
+
+.strategy-content {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 5px;
+}
+
+.strategy-content .strategy-box {
+    width: 375px;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed black;
+}
+
+.strategy-box img {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.strategy-box button {
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+
+.strategy-box button:hover {
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+
+.last-content {
+    margin: 55px 15px 35px 15px;
+}
